@@ -87,6 +87,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [claude-reflect](./plugins/claude-reflect) - Self-learning system that captures corrections during sessions and syncs to CLAUDE.md with human review
 - [agent-manager-skill](./plugins/agent-manager-skill)
 - [conductor-orchestrator-superpowers](./plugins/conductor-orchestrator-superpowers)
+- [context-capsule](https://github.com/wrg32786/aigent-os/tree/master/plugins/context-capsule) - Writes a resume-ready capsule of your session (objective, waiting_on, next_valid_action) so you can /clear or let auto-compact run and pick up where you left off. /capsule, /refresh, /resume commands plus SessionStart and PreCompact hooks. Plain Node, zero npm deps, no network.
 - [context-mode](./plugins/context-mode)
 - [Claude Forge](https://github.com/sangrokjung/claude-forge) — oh-my-zsh for Claude Code: 11 agents, 36 commands, 15 skills, 14 hooks, 6-layer security. Install in 5 min.
 - [claude-memory-manager](https://github.com/WhymustIhaveaname/claude-memory-manager) - Global memory tier for Claude Code. Stores cross-project memories in ~/.claude/memory/, injects them via SessionStart hook. Includes a web UI for managing all memory files without digging through directories.
